@@ -1,8 +1,11 @@
+server:
+  port: 8080
+
 spring:
   application:
     name: spring-cloud-gateway-service
   cloud:
     config:
-      uri: http://localhost:8888
+      uri: https://ilanguage-config-server-fas-do7mck57bq-rj.a.run.app
       username: root
       password: s3cr3t
